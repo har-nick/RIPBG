@@ -1,0 +1,6 @@
+-dontwarn org.slf4j.**
+-keep class org.slf4j.** { *; }
+-dontwarn kotlinx.coroutines.**
+-keep class kotlinx.coroutines.** { *; }
+-dontwarn io.ktor.Events.**
+-keep class io.ktor.Events.** { *; }
